@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo " copy from  https://about.gitlab.com/installation/#centos-7 ....."
+
 sudo yum install -y curl policycoreutils-python openssh-server
 
 sudo systemctl enable sshd
