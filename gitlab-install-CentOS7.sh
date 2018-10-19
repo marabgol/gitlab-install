@@ -18,4 +18,4 @@ curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rp
 
 #IP=`ifconfig |grep inet |awk '{print $2}' |xargs -I % echo % | egrep -e "^[1-9][0-9][0-9]" |grep  -v ".1$"`
 
-sudo EXTERNAL_URL="http://localhost" yum install -y gitlab-ee
+sudo EXTERNAL_URL="http://sys.majid.org:81/gitlab" yum install -y gitlab-ee
